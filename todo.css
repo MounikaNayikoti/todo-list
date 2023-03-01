@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;   
+}
+body{
+    background-image:linear-gradient(120deg,
+    rgba(0,0,0, 0.8),
+    rgb(0, 0, 3,0.3)),url('https://3.bp.blogspot.com/-Zp5-yrx_wTM/Vve7JWT6uVI/AAAAAAAACKo/uWQM3fmEFcY3isHf7UejoYTIjvtxMsqOg/s1600/waysforest%2B%25288%2529.jpg');   
+}
+header{
+    display:flex;
+align-items: center;
+justify-content: center;
+font-size: 40px;
+color:rgb(255, 247, 0);
+margin:2rem;
+font-weight: 700;
+font-family:Georgia, 'Times New Roman', Times, serif
+}
+ form{
+    display:flex;
+    text-align: center;
+    align-items:center;
+    justify-content:center ;
+    padding:10px;
+    margin:10px;
+}
+form input{
+    padding:10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(7, 2, 75);
+    border:none;
+}
+form button{
+    border-radius: 50%;
+    padding:10px;
+    font-size: 20px;
+    border: none;
+    margin:5px;
+    background-color: #ff0;
+    transition:all 0.5s linear;
+    cursor:pointer;
+}
+form button:hover{
+    background-color: rgb(5, 250, 181);  
+}
+
+.todo{
+    display:flex;
+    text-align: center;
+    align-items:center;
+    justify-content:center ;
+    
+}
+.list{
+    list-style: none;
+    width:30%;
+}
+.single{
+    background: white;
+    display:flex;
+    justify-content: space-between;
+    margin:10px;
+    transition:all 0.2s linear;
+    font-size:20px;
+    border-radius: 10px;
+    align-items: center;
+}
+.single li{
+    flex:1;
+    text-align: left;
+    padding:15px;
+}
+.complete_btn,.delete_btn{
+    background: rgb(255, 0, 0);
+    color:white;
+    border:none;
+    border-radius: 50%;
+    padding:10px;
+    margin:3px;
+    cursor:pointer;
+    font-size: 15px;
+    border:1px solid rgb(255, 0, 251);
+}
+.complete_btn{
+    background: green;
+}
+.fa-trash,.fa-check{
+    pointer-events: none;
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+.view{
+    margin:20px;
+    padding:5px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: rgb(0, 238, 255);
+    box-shadow: 1px 1px 1px #fff;
+    color:red;
+    border:none;
+    cursor: pointer;
+    transition:0.5s ease;
+}
+.view:hover{
+    background: #ff0;
+    transform: scale(1.05);
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:10px;
+    color:#fff;  
+}
+.container li{
+    list-style: none;
+}
+.container h3{
+    font-size: 20px;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
